@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8">
+        <title>Analyzer</title>
+        {% load static  %}
+        <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Welcome to the website analyzer!</h1>
+            <form action = '/analyzer' mathod="get">
+                <div class="web_address">
+                    <label>Enter your website below:</label>
+                    <input name = 'website'/>
+                </div>
+                <div class="email_address">
+                    <label>Enter your email below:</label>
+                    <input name = 'email'/>
+                </div>
+                <button type='submit'>Analyze My Website</button>
+            </form>
+        </div>
+    </body>
+</html>

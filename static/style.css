@@ -1,0 +1,34 @@
+.container{
+    position: absolute;
+     left: 50%;
+     top: 40%;
+    transform: translate(-50%, -40%);
+       } 
+       .web_address{
+        display: flex;
+    flex-direction: column;
+       }
+       .email_address{
+        display: flex;
+    flex-direction: column;
+       }
+       form{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+       }
+       body{
+           background-color: #e3ebfc;
+       }
+       label{
+           font-size:20px;
+       }
+       button{
+        padding: 8px;
+        border-radius: 8px;
+        background-color: grey;
+        color: white;
+        border:none;
+        cursor: pointer;
+       }
